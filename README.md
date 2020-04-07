@@ -1,8 +1,15 @@
 # WEB Development Tips
 
+## Language
+
+- [Javascript](/Language/Javascript.md)
+- [Typescript](/Language/Typescript.md)
+- [HtmlCss](/Language/HtmlCss.md)
+
 ## Front-End
 
 - [React](/Frontend/React.md)
+- [Ant Design](/Frontend/AntD.md)
 
 ---
 
