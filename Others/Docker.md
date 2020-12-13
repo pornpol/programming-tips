@@ -24,3 +24,10 @@ ALTER USER 'root' IDENTIFIED WITH mysql_native_password BY '';
 ## Kafka & Zookeeper
 
 - Build Image from Dockerfile [https://github.com/pornpol/docker-kafka-zookeeper]
+
+## Redis
+
+```
+docker volume create --name redis_data
+docker run -d -v redis_data:/data --name redis -p 6379:6379 redis
+```
